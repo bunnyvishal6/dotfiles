@@ -1,0 +1,13 @@
+[core]
+        excludesfile = ~/.gitignore_global
+[gpg]
+        program = gpg2
+[user]
+        signingkey = 5FC2BCFD0CCA32E
+        email = 13260838+bunnyvishal6@users.noreply.github.com
+        name = Bunny Vishal
+[filter "lfs"]
+        process = git-lfs filter-process
+        required = true
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
